@@ -11,6 +11,13 @@ public class LoginController {
 
     @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
     public ModelAndView doGet() {
-        return new ModelAndView("login");
+        return new ModelAndView("paginaInicial");
     }
+
+    @RequestMapping(value="/sobre",method =RequestMethod.GET)
+    public ModelAndView sobre() {
+        return new ModelAndView("sobre");
+    }
+
+
 }
