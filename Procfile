@@ -1,0 +1,1 @@
+java: $JAVA_OPTS -jar target/dependency/evs-pedro.jar --port $PORT web/target/*.war
