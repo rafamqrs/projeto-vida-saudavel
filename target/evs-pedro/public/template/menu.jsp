@@ -151,15 +151,16 @@
 							data-toggle="dropdown" href="#menu1"> Login <b class="caret"></b>
 						</a>
 							<div class="dropdown-menu">
-								<form style="margin: 0px" accept-charset="UTF-8"
-									action="/sessions" method="post">
+								<form method="post" action="j_spring_security_check" style="margin: 0px" >
 									<fieldset class='textbox' style="padding: 10px">
-										<input style="margin-top: 8px" type="text"
-											placeholder="Username" /> <input style="margin-top: 8px"
-											type="password" placeholder="Passsword" /> <input
-											class="btn-primary" name="commit" type="submit"
-											value="Log In" />
-									</fieldset>
+											<input name="j_username" id="j_username" type="text"
+											style="margin-top: 8px"
+											placeholder="<spring:message code='sample.email' /> "><br />
+											<input name="j_password" id="j_password" type="password"
+											style="margin-top: 8px" placeholder="Password"><br />
+											<button type="submit" name="submit"
+											class="btn btn-inverse btn-block"></button>
+										</fieldset>
 								</form>
 							</div></li>
 						<!-- LOGIN MENU -->

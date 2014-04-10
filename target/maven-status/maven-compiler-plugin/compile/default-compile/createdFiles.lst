@@ -6,6 +6,7 @@ uaiContacts/service/ContactService.class
 uaiContacts/vo/ContactListVO.class
 uaiContacts/model/Role.class
 uaiContacts/controller/LoginController.class
+br/com/evs/main/Main.class
 uaiContacts/model/User.class
 uaiContacts/repository/UserRepository.class
 uaiContacts/service/UserService.class
