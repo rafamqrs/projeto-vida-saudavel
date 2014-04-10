@@ -123,28 +123,13 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">EVS - PEDRO & LUCIA</a>
+					<a class="navbar-brand" href="/evs-pedro/login">EVS - PEDRO & LUCIA</a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="/evs-pedro/login/sobre.html">Sobre</a></li>
 						<li><a href="/contato.html">Contato</a></li>
-						<li class="dropdown"><a href="#" class="dropdown-toggle"
-							data-toggle="dropdown">Restrito<b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/evs-pedro-lucia/cliente/adicionar.html">Gerenciar
-										Clientes</a></li>
-								<li class="divider" />
-								<li class="dropdown-header">Pedido</li>
-								<li><a href="/evs-pedro-lucia/login/logar.html">Gerenciar
-										Pedidos</a></li>
-								<li class="divider" />
-								<li class="dropdown-header">Controle Paginas</li>
-								<li><a href="/evs-pedro-lucia/conteudo/conteudoPagina.html">
-										Conteudo Página Principal</a></li>
-							</ul></li>
-
 						<!-- here comes the important part -->
 
 						<li class="dropdown" id="menu1"><a class="dropdown-toggle"
@@ -157,27 +142,12 @@
 											style="margin-top: 8px"
 											placeholder="<spring:message code='sample.email' /> "><br />
 											<input name="j_password" id="j_password" type="password"
-											style="margin-top: 8px" placeholder="Password"><br />
-											<button type="submit" name="submit"
-											class="btn btn-inverse btn-block"></button>
-										</fieldset>
-								</form>
-							</div></li>
-						<!-- LOGIN MENU -->
-						<li class="dropdown" id="menuLogin"><a
-							class="dropdown-toggle" href="#" data-toggle="dropdown"
-							id="navLogin">Login</a>
-							<div class="dropdown-menu" style="padding: 17px;">
-								<form method="post" action="j_spring_security_check">
-									<div>
-										<input name="j_username" id="j_username" type="text"
-											class="span12"
-											placeholder="<spring:message code='sample.email' /> "><br />
-										<input name="j_password" id="j_password" type="password"
-											class="span12" placeholder="Password"><br />
-										<button type="submit" name="submit"
-											class="btn btn-inverse btn-block"></button>
-									</div>
+											style="margin-top: 8px"
+											placeholder="Password">
+											<input
+											class="btn-primary" name="submit" type="submit"
+											value="Log In" />
+									</fieldset>
 								</form>
 							</div></li>
 					</ul>
