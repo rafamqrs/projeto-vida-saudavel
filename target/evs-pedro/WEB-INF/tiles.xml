@@ -25,6 +25,10 @@
         <put-attribute name="body" value="/public/sobre.jsp"/>
     </definition>
 
+    <definition name="contato" extends="padrao.pagina">
+        <put-attribute name="body" value="/public/contato.jsp"/>
+    </definition>
+
     <definition name="welcomePage" extends="master.page">
         <put-attribute name="body" value="/protected/welcomePage.jsp"/>
     </definition>

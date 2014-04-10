@@ -19,5 +19,9 @@ public class LoginController {
         return new ModelAndView("sobre");
     }
 
+    @RequestMapping(value="/contato",method =RequestMethod.GET)
+    public ModelAndView contato() {
+        return new ModelAndView("contato");
+    }
 
 }

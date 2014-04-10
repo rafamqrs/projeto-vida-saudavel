@@ -129,7 +129,7 @@
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="/evs-pedro/login/sobre.html">Sobre</a></li>
-						<li><a href="/contato.html">Contato</a></li>
+						<li><a href="/evs-pedro/login/contato.html">Contato</a></li>
 						<!-- here comes the important part -->
 
 						<li class="dropdown" id="menu1"><a class="dropdown-toggle"
