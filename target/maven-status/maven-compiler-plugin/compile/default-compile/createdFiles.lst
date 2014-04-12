@@ -1,4 +1,5 @@
 uaiContacts/controller/HomeController.class
+uaiContacts/model/Sabor.class
 uaiContacts/controller/ContactsController.class
 uaiContacts/repository/ContactRepository.class
 uaiContacts/controller/IndexController.class

@@ -276,6 +276,5 @@
 			<version>7.0.27.1</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 </project>
