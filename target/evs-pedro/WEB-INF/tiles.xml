@@ -3,41 +3,41 @@
         "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
 <tiles-definitions>
 
-    <!-- Master -->
-    <definition name="master.page" template="/public/template/master.jsp">
-        <put-attribute name="header" value="/public/template/header.jsp"/>
-        <put-attribute name="footer" value="/public/template/footer.jsp"/>
-    </definition>
+	<!-- Master -->
+	<definition name="master.page" template="/public/template/master.jsp">
+		<put-attribute name="header" value="/public/template/header.jsp" />
+		<put-attribute name="footer" value="/public/template/footer.jsp" />
+	</definition>
 
-	<!-- Página Padrão  -->
-	<definition name="padrao.page" template="/public/template/layout.jsp"/>
+	<!-- Página Padrão -->
+	<definition name="padrao.page" template="/public/template/layout.jsp" />
 
-	<!-- Página Padrão  -->
+	<!-- Página Padrão -->
 	<definition name="padrao.pagina" template="/public/template/menu.jsp">
 	</definition>
-	
-    <!--  Pages -->
-    <definition name="paginaInicial" extends="padrao.pagina">
-        <put-attribute name="body" value="/public/paginaInicial.jsp"/>
-    </definition>
 
-    <definition name="sobre" extends="padrao.pagina">
-        <put-attribute name="body" value="/public/sobre.jsp"/>
-    </definition>
+	<!-- Pages -->
+	<definition name="paginaInicial" extends="padrao.pagina">
+		<put-attribute name="body" value="/public/paginaInicial.jsp" />
+	</definition>
 
-    <definition name="contato" extends="padrao.pagina">
-        <put-attribute name="body" value="/public/contato.jsp"/>
-    </definition>
+	<definition name="sobre" extends="padrao.pagina">
+		<put-attribute name="body" value="/public/sobre.jsp" />
+	</definition>
 
-    <definition name="welcomePage" extends="master.page">
-        <put-attribute name="body" value="/protected/welcomePage.jsp"/>
-    </definition>
-    <definition name="contactsList" extends="master.page">
-        <put-attribute name="body" value="/protected/contacts/contacts.jsp"/>
-    </definition>
-    <definition name="login" extends="master.page">
-        <put-attribute name="header" value=""/>
-        <put-attribute name="footer" value=""/>
-        <put-attribute name="body" value="/public/login.jsp"/>
-    </definition>
+	<definition name="contato" extends="padrao.pagina">
+		<put-attribute name="body" value="/public/contato.jsp" />
+	</definition>
+
+	<definition name="welcomePage" extends="master.page">
+		<put-attribute name="body" value="/protected/welcomePage.jsp" />
+	</definition>
+	<definition name="contactsList" extends="master.page">
+		<put-attribute name="body" value="/protected/contacts/contacts.jsp" />
+	</definition>
+	<definition name="login" extends="master.page">
+		<put-attribute name="header" value="" />
+		<put-attribute name="footer" value="" />
+		<put-attribute name="body" value="/public/login.jsp" />
+	</definition>
 </tiles-definitions>

@@ -123,7 +123,8 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="/evs-pedro/login">EVS - PEDRO & LUCIA</a>
+					<a class="navbar-brand" href="/evs-pedro/login">EVS - PEDRO &
+						LUCIA</a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
@@ -136,15 +137,14 @@
 							data-toggle="dropdown" href="#menu1"> Login <b class="caret"></b>
 						</a>
 							<div class="dropdown-menu">
-								<form method="post" action="j_spring_security_check" style="margin: 0px" >
+								<form method="post" action="j_spring_security_check"
+									style="margin: 0px">
 									<fieldset class='textbox' style="padding: 10px">
-											<input name="j_username" id="j_username" type="text"
+										<input name="j_username" id="j_username" type="text"
 											style="margin-top: 8px"
 											placeholder="<spring:message code='sample.email' /> "><br />
-											<input name="j_password" id="j_password" type="password"
-											style="margin-top: 8px"
-											placeholder="Password">
-											<input
+										<input name="j_password" id="j_password" type="password"
+											style="margin-top: 8px" placeholder="Password"> <input
 											class="btn-primary" name="submit" type="submit"
 											value="Log In" />
 									</fieldset>

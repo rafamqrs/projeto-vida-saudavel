@@ -2,7 +2,7 @@
 <head>
 <style type="text/css">
 body {
-padding-top:20px;
+	padding-top: 20px;
 }
 </style>
 </head>
